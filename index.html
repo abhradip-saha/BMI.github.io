@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Abhradip's BMI Calculator</title>   
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat&display=swap"
+		rel="stylesheet"> 
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+
+
+
+        <!-- navbar -->
+        <nav>
+            
+            <!-- logo -->
+            <div class="logo">
+                <img src="./Abhradip.jpg" height=50 width=50 style="border-radius:50%;">
+                <span class="heading">
+                    Abhradip's&nbsp <br><strong> BMI CALCULATOR</strong>
+                </span>
+            </div>
+        </nav>
+    
+
+
+        <!-- calculator box -->
+        <div class="wrapper">
+            <center>
+            <h2>Calculate Your BMI</h2>
+            <h4>(BODY MASS INDEX)</h4>
+            <p>Height (in CM) : 
+                <input type="text" id="height"><br>
+                <span class="error" id="height_error"></span>
+            </p>
+            <p>Weight (in KG) : 
+                <input type="text" id="weight"><br>
+                <span class="error" id="weight_error"></span>
+            </p>
+            <button id="btn"> Calculate BMI</button>
+            <p id="output">
+            </center>
+
+            </p>
+        </div>
+
+
+        <!-- Referrence -->
+        <div class="wrap">
+            <h2>Referrence</h2>
+            <p class="chart">
+                Underweight :&nbsp&nbspBMI<=18.5 <br><br>
+                Normal&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp18.5 <BMI <25 <br><br><br>
+                Overweight&nbsp&nbsp&nbsp:&nbsp&nbsp25<=BMI<30 <br><br>
+                Obesity&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbspBMI>=30
+                
+            </p>
+        </div>
+
+
+        <!-- gap -->
+        <div class="last"></div>
+    </body>
+    </html>

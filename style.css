@@ -1,0 +1,207 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family:'Josefin Sans', sans-serif;
+    background-image: url(./bgm.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* navbar */
+nav{
+	position:fixed;
+	z-index:10;
+	left:0; right:0; top:0; bottom:0; 
+	font-family:'Josefin Sans', sans-serif;
+	padding:0 5%;
+	height:100px; 
+	background-color:rgb(3, 3, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .logo{
+	/* float:left; */
+	width:100%; 
+	height:100%; 
+	display:flex; 
+	align-items:center;
+	font-size:24px; 
+	color:white;
+    justify-content: center;
+    font-family:'Josefin Sans', sans-serif;
+}
+nav .logo .img{
+    filter: brightness(120%);
+}
+.heading{
+    margin: auto 20px;
+    font-weight: bold;
+}
+strong{
+    color: rgb(175, 196, 214);
+}
+.error{
+    color: red;
+}
+
+
+
+
+/* calculator box */
+.wrapper{
+    width: 50%;
+    padding: 15px;
+    background: black;
+    border-radius: 5px;
+    box-shadow: rgb(38,57,77) 0px 20px 10px -10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-weight: bold;
+    font-family:'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 15%;
+}
+h2{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: rgb(209, 206, 206);
+}
+h4{
+    color: rgb(209, 206, 206);
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+p{
+    letter-spacing: 1px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(60, 58, 58);
+    text-align: center;
+
+}
+button{
+    border: 4px solid #f9004d;
+    margin-top: 30px;
+    display: inline-block;
+	background: #f9004d;
+	font-size: 1.03rem;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 10px;
+	transition: ease .20s;
+	cursor: pointer;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;	
+    
+}
+button:hover{
+    color: white;
+    background: black;
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+#output{
+    color: #dec1ca;
+}
+
+
+
+/* referrence */
+.wrap{
+    /* position: relative;
+    top: 45%;
+    left: 50%;
+    bottom: 7%; */
+    width: auto;
+    /* height: 50%; */
+    /* transform:translate(-50%,-50%); */
+    padding: 20px 60px ;
+    /* background: black; */
+    background: rgb(3, 52, 52);
+    border-radius: 5px;
+    box-shadow: rgb(38,57,77) 0px 20px 10px -10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-weight: bold;
+    font-family:'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+    margin-bottom: 6%;
+    color: aliceblue;
+    letter-spacing: 1px;
+    
+}
+.chart{
+    text-align: justify;
+    padding: 10%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    justify-content: center;
+    background-color: black;
+    border-radius: 5px;
+    color: blanchedalmond;
+    
+   
+}
+
+
+
+/* gap */
+/* .last{
+    /* margin-top: 2%; */
+    /* position: relative;
+    top: 8%;
+    left: 50%;
+    
+    height: 2%; 
+} */
+
+
+
+/* responsive */
+@media screen and (max-width:728px) {
+    .wrapper{
+        width:70%;
+        margin-top: 8%;
+        margin-bottom: 30px;
+        margin-top: 30%;
+        height: auto;
+        
+    }
+    .wrap{
+        /* width: 70%; */
+        height: auto;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:300px){
+    .wrapper{
+        margin-top: 40%;
+        padding: 15px;
+    }
+    .heading{
+        margin: auto 20px;
+        font-weight: 100;
+    }
+}
