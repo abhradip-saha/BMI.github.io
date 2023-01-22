@@ -7,7 +7,7 @@ button.addEventListener('click',()=>{
     let height_status=false, weight_status=false;
     if(height=='' || isNaN(height)  || height<=0)
     {
-        document.getElementById('height_error').innerHTML='Invalid Height'
+        document.getElementById('height_error').innerHTML='Enter Valid Height'
     }
     else
     {
@@ -16,7 +16,7 @@ button.addEventListener('click',()=>{
     }
     if(weight=='' || isNaN(weight)  || weight<=0)
     {
-        document.getElementById('weight_error').innerHTML='Invalid weight'
+        document.getElementById('weight_error').innerHTML='Enter Valid weight'
     }
     else
     {
