@@ -16,7 +16,7 @@ button.addEventListener('click',()=>{
     }
     if(weight=='' || isNaN(weight)  || weight<=0)
     {
-        document.getElementById('weight_error').innerHTML='Enter Valid weight'
+        document.getElementById('weight_error').innerHTML='Enter Valid Weight'
     }
     else
     {
