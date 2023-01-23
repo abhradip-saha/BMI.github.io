@@ -254,3 +254,9 @@ button:hover{
     }
     
 }*/
+@media screen and (min-height:1000px){
+    .wrapper{
+        margin-top: 30%;
+        margin-bottom: 20%;
+    }
+}
